@@ -1,0 +1,15 @@
+{
+  "name": "Aurora Tech",
+  "short_name": "Aurora Tech",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07080c",
+  "theme_color": "#07080c",
+  "icons": [
+    {
+      "src": "./aurora-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
