@@ -676,7 +676,7 @@ footer{padding:28px 0;display:flex;justify-content:space-between;font-size:13px;
     document.getElementById('planner-result').innerHTML='<b>Recommendation:</b> '+recommendation+' — '+range+'. We can refine this after learning more about your goals.';
     const subject=encodeURIComponent('Aurora Tech project enquiry — '+recommendation);
     const body=encodeURIComponent(
-      'Dear Aurora Tech Team,\\n\\nI would like to enquire about a project with Aurora Tech. Please find my initial project details below.\\n\\nName: '+name+'\\nProject type: '+type+'\\nBusiness stage: '+size+'\\nProject goal: '+(goal||'Not provided')+'\\n\\nRecommended starting point: '+recommendation+'\\nEstimated starting range: '+range+'\\n\\nPlease let me know a suitable time to discuss the project and the next steps. I look forward to hearing from you.\\n\\nKind regards,\\n'+name
+      'Dear Aurora Tech Team, I would like to enquire about a project with Aurora Tech. Please find my initial project details below. Name: '+name+'Project type: '+type+'Business stage: '+size+'Project goal: '+(goal||'Not provided')+'Recommended starting point: '+recommendation+'Estimated starting range: '+range+'Please let me know a suitable time to discuss the project and the next steps. I look forward to hearing from you.\\n\\nKind regards,\\n'+name
     );
     const link=document.createElement('a');
     link.href='https://mail.google.com/mail/?view=cm&fs=1&to=bulelamaqetseba@auroratech.co.za&cc=ziamooketsi@auroratech.co.za&su='+subject+'&body='+body;
